@@ -61,7 +61,7 @@ for xd in range(5000):
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
 	ugen.append(uaku2)
 try:
-	prox= requests.get('https://github.com/Xiyad69/.xiyad-proxy.txt').text
+	prox= requests.get('https://github.com/S4BB1R-69/Pro/blob/main/xnxx.txt').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
 	print('\x1b[1;95m[√] LOADING...')
@@ -202,33 +202,6 @@ logo=("""
 \033[92;1m>>     Tol Typ  : \x1b[91;1m PAID
 \033[91;1m--------------------------------------------------""")
 def linex():
-	
-	try:
-    key1=open("/storage/emulated/0/android8.txt",'r').read()
-except IOError:
-    kok=open("/storage/emulated/0/android8.txt",'w')
-    myid=uuid.uuid4().hex[:12]
-    f="COBRA-LINUX"
-    key=myid+f
-    kok.write(key)
-    kok.close()
-    print(key)
-
-a=requests.get("https://github.com/S4BB1R-69/Pro/blob/main/xnxx.txt").text
-b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
-key2=str(key1)  
-if key2 in b:
-    pass
-    
-else:
-    os.system("clear")
-    print
-    print("Your key  : "+key2)
-    print("\n\t\tContact Admin ")
-    os.system('xdg-open https://wa.me/+8801949434886')
-    exit()
-	
 	print('\033[91;1m--------------------------------------------------')
 loop = 0
 oks = []
